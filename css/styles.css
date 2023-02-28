@@ -1,0 +1,162 @@
+/* TODO:  REFATORAR CSS E HTML*/
+
+/* HTML TAGS*/
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h2 {
+  padding: 0% 10%;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 5% 15% 6.3%;
+}
+
+.section-white {
+  background-color: #fff;
+}
+/* /* .section-colored{
+  background-color: #ef8172;
+  color: #fff;
+} */
+
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+/* NAVBAR */
+.navbar {
+  margin-bottom: 4rem;
+  padding: 0;
+}
+.navbar-brand {
+  font-size: 2.7rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+.nav-item {
+  font-size: 1.3rem;
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* TITLE SECTION */
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+.main-title {
+  line-height: 1.5;
+  color: white;
+}
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+.title-image {
+  width: 55%;
+  transform: rotate(22deg);
+  position: absolute;
+  right: 22%;
+}
+
+/* FEATURES SECTION */
+#features {
+  padding: 3% 15%;
+  position: relative;
+  background-color: #fff;
+}
+.feature-box {
+  padding: 7%;
+}
+.feature-icon {
+  color: #ef8172;
+}
+.feature-icon:hover {
+  color: #ff4c68;
+}
+.feature-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.feature-desc {
+  color: #8f8f8f;
+}
+
+/* TESTIMONIALS SECTION */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  padding-top: 2%;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 1.9rem;
+}
+
+/* PRESS SECTION */
+#press {
+  background-color: #ef8172;
+  padding-top: 5%;
+  padding-bottom: 1%;
+}
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+#pricing {
+  padding: 7% 15%;
+}
+.price-column {
+  padding: 3% 2%;
+}
+
+/* CTA SECTION */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.cta-title {
+  padding: 2% 6% 0%;
+  font-size: 4rem;
+}
+
+/* FOOTER SECTION */
+.copyright {
+  font-size: 1.2rem;
+  color: #8f8f8f;
+}
+.footer-brand {
+  margin: 2% 1%;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1250px) {
+  .title-image {
+    width: 55%;
+    transform: rotate(22deg);
+    position: absolute;
+    right: 5%;
+  }
+}
+@media (max-width: 991px) {
+  .title-image {
+    width: 55%;
+    transform: rotate(0deg);
+    position: static;
+  }
+  #title {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .main-title {
+    font-size: 2rem;
+  }
+}
